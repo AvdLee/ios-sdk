@@ -30,8 +30,8 @@
 "LIBRARY_SEARCH_PATHS": "$(inherited) \"$(PODS_ROOT)/Spotify-iOS-SDK\"",
 "OTHER_LDFLAGS": "-l\"Spotify\""
 },
-"preserve_paths": "ios-sdk-beta-20/Spotify.framework/Spotify",
-"prepare_command": "touch Empty.m && cp ios-sdk-beta-20/Spotify.framework/Spotify libSpotify.a && cp ios-sdk-beta-20/Spotify.framework/Headers/* .",
+"preserve_paths": "Spotify.framework/Spotify",
+"prepare_command": "touch Empty.m && cp Spotify.framework/Spotify libSpotify.a && cp Spotify.framework/Headers/* .",
 "source_files": [
 "Empty.m",
 "*.h"
